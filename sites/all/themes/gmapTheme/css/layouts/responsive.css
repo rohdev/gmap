@@ -46,15 +46,17 @@
 }
 
 #header{
-  height: 100px;
+  min-height: 100px;
 }
 
 #footer{
-  height: 100px;
+  min-height: 100px;
   position: absolute;
   width: 100%;
   bottom: 0;
 }
+
+
 
 /* Containers for grid items and flow items. */
 #header,
@@ -77,6 +79,27 @@
 #footer:after {
   clear: both;
 }
+/* Making changes to footer */
+
+#footer-image{
+  padding: 10px;
+  float: left;
+}
+
+#footer #block-block-1{
+  float:right;
+  margin-top: 10px;
+}
+#footer #block-block-1 p{
+  float:right;
+}
+
+#footer #block-block-1 li{
+  color:white;
+  list-style-type: none;
+  text-align: right;
+}
+
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
