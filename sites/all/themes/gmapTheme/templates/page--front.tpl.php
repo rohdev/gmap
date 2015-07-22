@@ -52,12 +52,7 @@
           )); ?>
         </nav>
       <?php endif; ?>
-
-      <?php print render($page['navigation']); ?>
-
-    </div>
-
-    <?php if ($secondary_menu): ?>
+      <?php if ($secondary_menu): ?>
       <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
         <?php print theme('links__system_secondary_menu', array(
           'links' => $secondary_menu,
@@ -72,6 +67,12 @@
         )); ?>
       </nav>
     <?php endif; ?>
+
+      <?php print render($page['navigation']); ?>
+
+    </div>
+
+    
 
     <?php print render($page['header']); ?>
 
