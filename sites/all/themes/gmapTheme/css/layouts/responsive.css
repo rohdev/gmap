@@ -110,10 +110,10 @@
   }
   #navigation {
     /* Move the navbar up inside #main's padding. */
-    position: absolute;
+    float:left;
     top: 0;
-    height: 3em;
-    width: 100%;
+    width: auto;
+    min-width: 10%;
   }
 }
 
