@@ -33,6 +33,10 @@ div.main-container.container{
 	min-height: 500px;
 }
 
+/** Make the content appear little bit lower **/
+.row{
+	margin-top: 5px;
+}
 
 /** Footer Background color **/
 footer.footer.container{
@@ -41,12 +45,12 @@ footer.footer.container{
 
 /** Front Page CSS Changes **/
 h1.page-front-header{
-	font-size: 16px;
+	font-size: 25px;
 }
 
 hr.header-line-1{
 	margin: 0px;
-	border-top: 2px solid #ffffff;
+	border-top: 2px solid #eeeeee;
 }
 
 hr.header-line-2{
