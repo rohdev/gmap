@@ -38,3 +38,18 @@ div.main-container.container{
 footer.footer.container{
 	background: #595959;
 }
+
+/** Front Page CSS Changes **/
+h1.page-front-header{
+	font-size: 16px;
+}
+
+hr.header-line-1{
+	margin: 0px;
+	border-top: 2px solid #ffffff;
+}
+
+hr.header-line-2{
+	margin: 0px;
+	border-top: 2px solid #000000;
+}
