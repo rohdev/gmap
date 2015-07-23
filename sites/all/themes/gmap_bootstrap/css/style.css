@@ -22,6 +22,11 @@ a.name.navbar-brand{
 	color:white;
 }
 
+/** Set Navbar Size **/
+.navbar.container{
+	max-width: 1170px;
+}
+
 /** Background color for main content **/
 div.main-container.container{
 	background:#e8f2f3 ;
