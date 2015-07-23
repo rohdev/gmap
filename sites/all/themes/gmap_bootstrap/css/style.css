@@ -1,0 +1,35 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+/** The background for the whole page **/
+ body{
+ 	background-image: url('../images/body-background.png');
+ }
+
+/** Header background **/
+#navbar{
+	background: #595959;
+}
+
+/** Font color of navbar **/
+a.name.navbar-brand{
+	color:white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:white;
+}
+
+/** Background color for main content **/
+div.main-container.container{
+	background:#e8f2f3 ;
+	min-height: 500px;
+}
+
+
+/** Footer Background color **/
+footer.footer.container{
+	background: #595959;
+}
